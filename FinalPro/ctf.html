@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Off-image Coordinate</title>
+    <style>
+        #container {
+            position: relative;
+            width: 500px; /* Adjust the width of the container as per your image */
+            height: 500px; /* Adjust the height of the container as per your image */
+        }
+        #image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #coordinates {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: white;
+            padding: 5px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img id="image" src="paris.png" alt="Image">
+        <div id="coordinates">Click on the image</div>
+    </div>
+
+    <script>
+        document.getElementById('image').addEventListener('click', function(event) {
+            var image = event.target;
+            var offsetX = event.offsetX;
+            var offsetY = event.offsetY;
+
+            // Display the off-image coordinates
+            var coordinatesDiv = document.getElementById('coordinates');
+            coordinatesDiv.textContent = 'Off-image Coordinates: (' + offsetX + ', ' + offsetY + ')';
+        });
+    </script>
+</body>
+</html>
+ 

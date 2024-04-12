@@ -1,0 +1,38 @@
+<!DOCTYPE Html> 
+<html lang="en">
+	<head>
+	<title> Past Work </title>  
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,intial-scale=1">
+	<link href= "craft.css" rel=stylesheet>
+	</head> 
+	<body>
+	<header>
+		<h1> Dependable Craftsman Parking Lot Management </h1> 
+		<div id="wrapper">
+<div class="topnav">
+<nav > 	 <b>
+	<a class="active" href="https://homepages.uc.edu/~bernhaen/fpm4/index.html" >  Home </a> &nbsp; 
+	<a href="https://homepages.uc.edu/~bernhaen/fpm4"> Services </a> &nbsp; 
+	<a href= "???" > Past work</a> &nbsp;	
+	<a href= " https://homepages.uc.edu/~bernhaen/fpm4/contact/index.html"> Contact us</a> &nbsp;
+	<a href= " https://homepages.uc.edu/~bernhaen/fpm4/about/index.html"> about us</a> &nbsp;
+	 </nav>
+</div>
+<div class="centerss">
+	 <br> <h2> We have painted many diffrent businesses ranging from Airports to Mcdonalds.  </h2>  
+		
+  <br> <br> 
+</div>
+  </header>
+ 
+	<br> <br> <br> <br> 
+	<footer> 
+		<h2> You can us trust to make your parking lot customer ready </h2> 
+
+<center>	<h3>  </h3>
+	</footer>
+</body> 
+	</html> 
+
+  
